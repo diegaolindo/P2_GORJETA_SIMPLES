@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorjeta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Total [Restaurante Família]</h1>
+    </header>
+    <main>
+        <div>
+            <h1>Conta</h1>
+            <h2>CIELO</h2>
+            <p>AMEX</p>
+            <p>CREDITO A VISTA</p>
+            <P>xxxxxxxxxxx300</P>
+            <p>CNPJ: <strong>09 506 187/0001-74</strong></p>
+            <h3>RESTAURANTE FAMÍLIA</h3>
+            <p><strong>TOTAL: <input type="number" name="valor" id="contavalor" style="width: 35px;"></strong>R$</p>
+            <p><strong>GORJETA:</strong> <input type="number" name="gorjeta" id="contagorjeta" style="width: 35px;">%</p>
+            <p><input id="calcular" type="button" value="Calcular" onclick="calcular()"></p>
+            <h3>TOTAL FINAL: <strong id="totalfinal">Analisando...</strong></h3>
+        </div>
+    </main>
+    <footer>
+        <H1>IMPORTO EURO</H1>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
